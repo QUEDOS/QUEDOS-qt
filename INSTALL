@@ -1,0 +1,9 @@
+Building QUEDOS
+
+See doc/readme-qt.rst for instructions on building QUEDOS-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of QUEDOS.
+
+See doc/build-*.txt for instructions on building QUEDOSd,
+the intended-for-services, no-graphical-interface, reference
+implementation of QUEDOS.

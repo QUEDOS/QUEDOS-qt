@@ -1,0 +1,34 @@
+src/*.exe
+src/QUEDOS
+src/QUEDOSd
+src/test_QUEDOS
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.QUEDOS
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+QUEDOS-qt
+QUEDOS-Qt.app
+
+# Unit-tests
+Makefile.test
+QUEDOS-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
